@@ -1,0 +1,62 @@
+/* Styles for Navbar */
+.navbar-brand {
+    font-size: large;
+}
+
+.navbar-custom {
+    background-color: #2596be; 
+}
+
+.nav-link {
+    color: #fff; /* White color for links */
+}
+
+/* Styles for Login Form */
+.login-dark {
+    background: #f8f9fa; /* Light background color */
+    padding: 60px 0;
+    border-radius: 0px;
+}
+
+.login-dark h4 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.form-signup {
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.form-control {
+    border-radius: 5px; /* Rounded corners for input fields */
+    margin-bottom: 10px;
+    border-width: 1px;
+}
+
+.btn {
+    border-radius: 20px; /* Rounded corners for buttons */
+    border-width: 0px;
+    height: 35px;
+    width: 80px;
+}
+
+.btn-block {
+    padding: 10px; /* Adjust button padding */
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: initial;
+    }
+}
+
+.form-group{
+    border-radius: 0px;
+}
+
